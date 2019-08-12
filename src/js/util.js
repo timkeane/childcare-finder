@@ -40,9 +40,9 @@ const decorations = [{
       return $('<div>' + createLevelOfCareTable(detail)+ '</div>');
   },
   cssClass() {
-   return this.get('model_type');
- },
- contactInfo() {
+    return this.get('model_type');
+  },
+  contactInfo() {
     const app = this.app;
     const feature = this;
     return $('<button class="btn rad-all vcard">Contact Info</button>').click(() => {

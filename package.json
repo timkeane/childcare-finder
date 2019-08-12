@@ -1,6 +1,6 @@
 {
   "name": "childcare-finder",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "NYC Childcare Finder",
   "keywords": [
     "mapping",
@@ -14,7 +14,9 @@
     "test": "jest",
     "build": "webpack",
     "prebuild": "yarn roll-css",
-    "roll-css": "./node_modules/nyc-lib/css/roll-css.sh ./src/css/childcare-finder.theme.css ./src/css/childcare-finder.css"
+    "roll-css": "./node_modules/nyc-lib/css/roll-css.sh ./src/css/childcare-finder.theme.css ./src/css/childcare-finder.css",
+    "predeploy": "yarn build",
+    "deploy": "node deploy"
   },
   "dependencies": {
     "jquery": "^3.3.1",

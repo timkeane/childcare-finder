@@ -6,7 +6,6 @@ import Stroke from 'ol/style/Stroke'
 import Text from 'ol/style/Text'
 
 export const style = (feature, resolution) => {
-  var z = nycOl.TILE_GRID.getZForResolution(resolution);
   return new Style({
     image: new Icon({
       src: `img/${feature.get('model_type')}.png`,

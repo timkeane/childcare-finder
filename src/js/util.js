@@ -120,17 +120,17 @@ function genLCRow(arr, idx) {
     rowData += (idx===0 ? "Infant" : (idx===1 ? "Toddler" : (idx===2 ? "Pre-School" : "School")));
     rowData += "</td>";
     rowData += "<td>";
-    rowData += GetAgeStringFromNumber(arr[1].toFixed(2));
+    rowData += getAgeStringFromNumber(arr[1].toFixed(2));
     rowData += "</td>";
     rowData += "<td>";
-    rowData += GetAgeStringFromNumber(arr[2].toFixed(2));
+    rowData += getAgeStringFromNumber(arr[2].toFixed(2));
     rowData += "</td>";
     rowData += "</tr>";
   }    
   return rowData;
 }
 
-function GetAgeStringFromNumber(inputValue) {
+function getAgeStringFromNumber(inputValue) {
   let age = "";
   const yearMonth = inputValue.toString().split('.');
   const year = parseInt(yearMonth[0]);
@@ -184,7 +184,7 @@ function getSchoolDistricts() {
 export default {
   decorations,
   indDiv,
-  GetAgeStringFromNumber,
+  getAgeStringFromNumber,
   genLCRow,
   createLevelOfCareTable,
   getSchoolDistricts

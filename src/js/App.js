@@ -71,10 +71,10 @@ class App extends FinderApp {
     const source = new VectorSource({
       url: 'data/school-district.json',
       format: new TopoJSON()
-    }); 
+    })
     const layer = new VectorLayer({source: source,
       style: districtStyle     
-    });
+    })
     map.addLayer(layer)
   }
   addToList(feature) {    

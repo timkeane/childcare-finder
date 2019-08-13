@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 512.00001 512.00001"
+   xml:space="preserve"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="icon.svg"
+   width="512"
+   height="512"
+   inkscape:export-filename="A:\git\nyc-tile-example\src\main\webapp\show\img\icon-60.png"
+   inkscape:export-xdpi="10.546875"
+   inkscape:export-ydpi="10.546875"><metadata
+     id="metadata35"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs33" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="878"
+     id="namedview31"
+     showgrid="false"
+     inkscape:zoom="1.3066406"
+     inkscape:cx="125.5127"
+     inkscape:cy="256"
+     inkscape:window-x="1592"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" /><style
+     type="text/css"
+     id="style3">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#FCB315;}
+</style><rect
+     style="fill:#013364;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.92092001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="rect3363"
+     width="510.07907"
+     height="510.07907"
+     x="0.96046448"
+     y="0.96046448"
+     ry="6.8878922" /><g
+     id="g23"
+     transform="matrix(3.1890034,0,0,3.1890034,24.000001,76.464789)"
+     style="fill:#06a7e2;fill-opacity:1"><polygon
+       class="st1"
+       points="127.3,30.3 115.2,30.3 115.2,18.2 127.3,18.2 127.3,21.2 142.4,21.2 145.5,18.2 145.5,9.1 136.4,0 106.1,0 97,9.1 97,39.4 106.1,48.5 136.4,48.5 145.5,39.4 145.5,30.3 142.4,27.3 127.3,27.3 "
+       id="polygon25"
+       style="fill:#06a7e2;fill-opacity:1" /><polygon
+       class="st1"
+       points="48.5,45.5 48.5,3 45.5,0 33.3,0 30.3,3 30.3,15.2 15.2,0 3,0 0,3 0,45.5 3,48.5 15.2,48.5 18.2,45.5 18.2,33.3 33.3,48.5 33.3,48.5 45.5,48.5 "
+       id="polygon27"
+       style="fill:#06a7e2;fill-opacity:1" /><polygon
+       class="st1"
+       points="66.7,48.5 78.8,48.5 81.8,45.5 81.8,36.4 97,21.2 97,3 93.9,0 81.8,0 78.8,3 78.8,9.1 72.7,15.2 66.7,9.1 66.7,9.1 66.7,3 63.6,0 51.5,0 48.5,3 48.5,21.2 63.6,36.4 63.6,45.5 "
+       id="polygon29"
+       style="fill:#06a7e2;fill-opacity:1" /></g><text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ff9934;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     x="255.62891"
+     y="334.32428"
+     id="text4144"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4146"
+       x="255.62891"
+       y="334.32428"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:80px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ff9934;fill-opacity:1;">Childcare</tspan><tspan
+       sodipodi:role="line"
+       x="255.62891"
+       y="434.32428"
+       id="tspan4148"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:80px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ff9934;fill-opacity:1;">Finder</tspan></text>
+</svg>

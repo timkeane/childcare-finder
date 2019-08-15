@@ -50,17 +50,17 @@
     background-position: right center;
   }
   .facility.GD .name, label[for="chc-chc-1"] {
-    background-image: url("../img/GD.png")
+    background-image: url("../img/gd.png")
   }
   .facility.GC .name, label[for="chc-chc-0"] {
-    background-image: url("../img/GC.png")
+    background-image: url("../img/gc.png")
   }
     .facility.GH .name, label[for="chc-chc-2"] {
-    background-image: url("../img/GH.png")
+    background-image: url("../img/gh.png")
   }
   
   .facility.PP .name, label[for="chc-chc-3"] {
-    background-image: url("../img/PP.png")
+    background-image: url("../img/pp.png")
   }
 
   .vcard {

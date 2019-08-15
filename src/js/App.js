@@ -23,7 +23,7 @@ class App extends FinderApp {
 
     super({
       title: 'Childcare Providers',
-      // splashOptions: {message: 'Please wait.'},
+       splashOptions: {message: 'Information is subject to change.'},
       geoclientUrl: 'https://maps.nyc.gov/geoclient/v1/search.json?app_key=74DF5DB1D7320A9A2&app_id=nyc-lib-example',
       facilityTabTitle: 'Childcare Providers',
       facilityUrl: 'data/programs.csv',
@@ -46,13 +46,13 @@ class App extends FinderApp {
         },
         {
           title: 'Borough',
-          radio: true,
+          radio: false,
           choices: [          
-            {name: 'boro', values: ['MN'] ,label: 'Manhattan'},
-            {name: 'boro', values: ['BX'] ,label: 'Bronx'},
-            {name: 'boro', values: ['QN'] ,label: 'Queens'},
-            {name: 'boro', values: ['SI'] ,label: 'Staten Island'},
-            {name: 'boro', values: ['BK'] ,label: 'Brooklyn'} 
+            {name: 'boro', values: ['MN'] ,label: 'Manhattan',checked:true},
+            {name: 'boro', values: ['BX'] ,label: 'Bronx',checked:true},
+            {name: 'boro', values: ['QN'] ,label: 'Queens',checked:true},
+            {name: 'boro', values: ['SI'] ,label: 'Staten Island',checked:true},
+            {name: 'boro', values: ['BK'] ,label: 'Brooklyn',checked:true} 
         ]
         },
         {

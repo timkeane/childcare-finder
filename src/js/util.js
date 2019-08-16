@@ -73,7 +73,7 @@ const decorations = [{
    }
 }];
 
-function createLevelOfCareTable(detail) {
+const createLevelOfCareTable=(detail)=> {
   const arrLC = JSON.parse(detail);        
   let lcTableData = "";
   const ind=arrLC[0][3];  
@@ -112,7 +112,19 @@ function createLevelOfCareTable(detail) {
   }
 }
 
-function genLCRow(arr, idx) {    
+export const style = (feature, resolution) => {
+  return new Style({
+    image: new Icon({
+      src: `img/${feature.get('model_type')}.png`,
+      scale: 24 / 64
+    })
+  })
+}
+
+
+
+
+export const genLCRow=(arr, idx)=> {    
   let rowData = "";
   if (arr[0] === 1) {
     rowData += "<tr>";
@@ -130,7 +142,7 @@ function genLCRow(arr, idx) {
   return rowData;
 }
 
-function getAgeStringFromNumber(inputValue) {
+export const getAgeStringFromNumber=(inputValue)=> {
   let age = "";
   const yearMonth = inputValue.toString().split('.');
   const year = parseInt(yearMonth[0]);
@@ -140,7 +152,7 @@ function getAgeStringFromNumber(inputValue) {
   return age;            
 }
 
-function indDiv(ind) {
+export const indDiv=(ind)=> {
   switch(ind) {
     case 1:
       return "Open all year";
@@ -159,7 +171,7 @@ function indDiv(ind) {
   }
 }
 
-function getSchoolDistricts() {
+export const  getSchoolDistricts=()=> {
   const schooDistrictInfo = new Array();
   const index=new Array();
   const property_name = 'school_district';

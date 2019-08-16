@@ -8,61 +8,65 @@
 }
 
 .facility .name, .filter-chc-0 label {
-    padding-left: 25px;
-    background-position: 0 center;
-    background-repeat: no-repeat;
-    background-size: 20px;
-  }
+  padding-left: 25px;
+  background-position: 0 center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
 
   
-  .detailTbl td,th{
-    border:1px solid black;
-   }
+.detailTbl td,th{
+  border:1px solid black;
+}
 
-  .detailTbl {
-        border: 1px solid grey;
-        font-family: arial, sans-serif;
-        text-align: left;
-        padding: 8px;
-        width: 100%;
-        border-collapse: collapse;
-       }
+.detailTbl {
+  border: 1px solid grey;
+  font-family: arial, sans-serif;
+  text-align: left;
+  padding: 8px;
+  width: 100%;
+  border-collapse: collapse;
+}
 
-    .detailTbl th 
-    {          
-        white-space:nowrap;        
-    }
+.detailTbl th 
+{          
+  white-space:nowrap;        
+}
 
-    .detailTbl tbody td, tfoot td
-    {          
-        font-size: small;
-    }
+.detailTbl tbody td, tfoot td
+{          
+  font-size: small;
+}
 
-    .detailTbl caption
-    {
-        text-align: center;
-        font-weight: bold;
-    }
+.detailTbl caption
+{
+  text-align: center;
+  font-weight: bold;
+}
       
-  .translated-rtl .facility .name, .translated-rtl .filter-chc-0 label {
-    margin-right: unset;
-    padding-right: 25px;
-    background-position: right center;
-  }
-  .facility.GD .name, label[for="chc-chc-1"] {
-    background-image: url("../img/gd.png")
-  }
-  .facility.GC .name, label[for="chc-chc-0"] {
-    background-image: url("../img/gc.png")
-  }
-    .facility.GH .name, label[for="chc-chc-2"] {
-    background-image: url("../img/gh.png")
-  }
+.translated-rtl .facility .name, .translated-rtl .filter-chc-0 label {
+  margin-right: unset;
+  padding-right: 25px;
+  background-position: right center;
+}
+.facility.GD .name, label[for="chc-chc-1"] {
+  background-image: url("../img/GD.png")
+}
+.facility.GC .name, label[for="chc-chc-0"] {
+  background-image: url("../img/GC.png")
+}
+  .facility.GH .name, label[for="chc-chc-2"] {
+  background-image: url("../img/GH.png")
+}
   
-  .facility.PP .name, label[for="chc-chc-3"] {
-    background-image: url("../img/pp.png")
-  }
+.facility.PP .name, label[for="chc-chc-3"] {
+  background-image: url("../img/PP.png")
+}
 
-  .vcard {
-    background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3Asvg%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2264%22%20height%3D%2264%22%3E%3Crect%20ry%3D%224.0154648%22%20y%3D%22-61.978207%22%20x%3D%2210.645944%22%20height%3D%2259.956417%22%20width%3D%2242.70808%22%20style%3D%22fill%3Anone%3Bstroke%3A%23013364%3Bstroke-width%3A4.05174208%22%20transform%3D%22matrix(0%2C1%2C-1%2C0%2C0%2C0)%22%2F%3E%3Cg%20transform%3D%22translate(10%2C5.4179332)%22%3E%3Crect%20style%3D%22fill%3A%23013364%22%20width%3D%2217.568909%22%20height%3D%224.0291905%22%20x%3D%2226.860985%22%20y%3D%2213.674219%22%20ry%3D%222.0145953%22%2F%3E%3Crect%20style%3D%22fill%3A%23013364%22%20width%3D%2217.568909%22%20height%3D%224.0291905%22%20x%3D%2226.860985%22%20y%3D%2235.460724%22%20ry%3D%222.0145953%22%2F%3E%3Crect%20style%3D%22fill%3A%23013364%22%20width%3D%2217.568909%22%20height%3D%224.0291905%22%20x%3D%2226.860985%22%20y%3D%2224.567503%22%20ry%3D%222.0145953%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22m%2027.66917%2C26.71042%20c%200%2C4.646295%20-3.767492%2C8.412864%20-8.41493%2C8.412864%20-4.647437%2C0%20-8.414929%2C-3.766569%20-8.414929%2C-8.412864%200%2C-4.646297%203.767492%2C-8.412865%208.414929%2C-8.412865%204.647438%2C0%208.41493%2C3.766568%208.41493%2C8.412865%20z%22%20style%3D%22fill%3A%23013364%22%2F%3E%3Cpath%20d%3D%22m%2019.254248%2C36.396427%20c%20-6.973163%2C0%20-12.6258888%2C4.088854%20-12.6258888%2C9.132774%200%2C0.0398%200.00561%2C0.07899%200.00631%2C0.118666%20l%2025.2391568%2C0%20c%208.07e-4%2C-0.03968%200.0063%2C-0.07887%200.0063%2C-0.118666%200%2C-5.04392%20-5.652727%2C-9.132774%20-12.625891%2C-9.132774%20z%22%20style%3D%22fill%3A%23013364%22%2F%3E%3C%2Fsvg%3E');
-  }
+.fnd .splash .dia-msg{
+  text-align: center;
+}
+
+.vcard {
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3Asvg%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2264%22%20height%3D%2264%22%3E%3Crect%20ry%3D%224.0154648%22%20y%3D%22-61.978207%22%20x%3D%2210.645944%22%20height%3D%2259.956417%22%20width%3D%2242.70808%22%20style%3D%22fill%3Anone%3Bstroke%3A%23013364%3Bstroke-width%3A4.05174208%22%20transform%3D%22matrix(0%2C1%2C-1%2C0%2C0%2C0)%22%2F%3E%3Cg%20transform%3D%22translate(10%2C5.4179332)%22%3E%3Crect%20style%3D%22fill%3A%23013364%22%20width%3D%2217.568909%22%20height%3D%224.0291905%22%20x%3D%2226.860985%22%20y%3D%2213.674219%22%20ry%3D%222.0145953%22%2F%3E%3Crect%20style%3D%22fill%3A%23013364%22%20width%3D%2217.568909%22%20height%3D%224.0291905%22%20x%3D%2226.860985%22%20y%3D%2235.460724%22%20ry%3D%222.0145953%22%2F%3E%3Crect%20style%3D%22fill%3A%23013364%22%20width%3D%2217.568909%22%20height%3D%224.0291905%22%20x%3D%2226.860985%22%20y%3D%2224.567503%22%20ry%3D%222.0145953%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22m%2027.66917%2C26.71042%20c%200%2C4.646295%20-3.767492%2C8.412864%20-8.41493%2C8.412864%20-4.647437%2C0%20-8.414929%2C-3.766569%20-8.414929%2C-8.412864%200%2C-4.646297%203.767492%2C-8.412865%208.414929%2C-8.412865%204.647438%2C0%208.41493%2C3.766568%208.41493%2C8.412865%20z%22%20style%3D%22fill%3A%23013364%22%2F%3E%3Cpath%20d%3D%22m%2019.254248%2C36.396427%20c%20-6.973163%2C0%20-12.6258888%2C4.088854%20-12.6258888%2C9.132774%200%2C0.0398%200.00561%2C0.07899%200.00631%2C0.118666%20l%2025.2391568%2C0%20c%208.07e-4%2C-0.03968%200.0063%2C-0.07887%200.0063%2C-0.118666%200%2C-5.04392%20-5.652727%2C-9.132774%20-12.625891%2C-9.132774%20z%22%20style%3D%22fill%3A%23013364%22%2F%3E%3C%2Fsvg%3E');
+}
